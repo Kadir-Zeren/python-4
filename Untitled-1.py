@@ -77,4 +77,41 @@ name = "ahmet"
 age = 43
 meslek = "contect creator"
 
-print("merhabai ismin {} yaşın {} meslegin ise {}" .format(name,age,meslek))
+print("merhaba ismin {} yaşın {} meslegin ise {}" .format(name,age,meslek))
+
+print("merhaba ismin {2} yaşın {0} meslegin ise {1}" .format(age,meslek,name))
+
+print("merhaba ismin {a} yaşın {b} meslegin s ise {c}" .format(b=age,c=meslek,a=name))
+
+print("merhaba ismin {} yaşın {b} meslegin s ise {c}" .format(name,b=age,c=meslek))
+
+print("merhaba ismin {} yaşın {b} meslegin s ise {c}" .format(name,c=meslek,b=age))
+
+taban = 6
+yukseklik = 4
+print("hesaplama {}".format(taban*yukseklik/2))
+
+
+name = "ahmet"
+age = 43
+meslek = "contect creator"
+
+print(f"merhaba benim adim {name} yasim {age} mesleğim {meslek}")
+
+print(f"hesaplama {taban*yukseklik/2}")
+
+name = "MARIAM"
+print(f"My name is {name.capitalize()}")
+
+print(f"saga hizlama {name:>20}")
+
+print(f"saga hizlama {name:<20}")
+
+print(f"saga hizlama {name:^20}")
+
+print(f"saga hizlama {name:*^20}")
+
+name = "susan"
+age = "young"
+gender = "lady"
+print(F"{name} {gender} {age}")
